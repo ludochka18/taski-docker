@@ -23,8 +23,3 @@ COPY . .
 
 # При старте контейнера запустить сервер разработки.
 CMD ["python", "manage.py", "runserver", "0:8000"]
-
-# Файл .dockerignore
-venv
-.git
-db.sqlite3
